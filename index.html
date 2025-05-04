@@ -1,59 +1,69 @@
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BetterSeeWo Download</title>
+    <title>BetterSeeWo 下载</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            background-color: #f0f2f5;
-            font-family: Arial, "Microsoft YaHei", sans-serif;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
         }
- 
-        .brand-text {
-            font-size: 3rem;
-            color: #2d3436;
-            margin-bottom: 2rem;
-            font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
         }
- 
-        .download-btn {
-            padding: 1rem 2.5rem;
-            font-size: 1.2rem;
-            background-color: #00b894;
+        h1 {
+            color: #333;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007bff;
             color: white;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
- 
-        .download-btn:hover {
-            background-color: #00a383;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        a:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <div class="brand-text">betterseewo</div>
-    <button class="download-btn" onclick="handleDownload()">立即下载</button>
- 
-    <script>
-        function handleDownload() {
-            // 实际应用时替换为真实的下载链接 
-            window.location.href  = '#'; // 占位符链接 
-            alert('下载功能正在建设中...\n请稍后再试');
-        }
-    </script>
+    <div class="container">
+        <h1>欢迎下载 BetterSeeWo</h1>
+        <p>点击下方按钮开始下载：</p>
+        <a href="https://github.com/wzmwayne/betterseewo/releases/download/1.2/BetterSeewo_install.exe" download>立即下载</a>
+        <h2>使用说明</h2>
+        <ul>
+            <li>双击下载的安装程序打开界面。</li>
+            <li>设置初始密码为 <strong>702</strong>。</li>
+            <li>结束密码为 <strong>ysqd</strong>。</li>
+            <li>如果您不确定某些功能的作用，请勿使用这些功能。</li>
+            <li>使用软件过程中造成的一切后果与作者无关。</li>
+        </ul>
+    </div>
 </body>
 </html>
+
+
+
