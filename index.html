@@ -1,130 +1,85 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BetterSeeWo 下载</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-            overflow: hidden;
-            position: relative;
-        }
-        .logo-container {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 50px;
-            height: 50px;
-            background-image: url('https://raw.githubusercontent.com/wzmwayne/betterseewo/5f0cf3f7c3b95b713fc989d1a7e1fe69c397bd6f/ico.png');
-            background-size: cover;
-        }
-        .container {
-            display: flex;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 900px;
-            flex-direction: column;
-        }
-        @media (min-width: 768px) {
-            .container {
-                flex-direction: row;
-            }
-            .left-section {
-                width: 45%;
-                text-align: right;
-                padding-right: 30px;
-            }
-            .right-section {
-                width: 55%;
-                padding-left: 30px;
-                text-align: left;
-            }
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-        a.button {
-            display: inline-block;
-            padding: 12px 24px;
-            margin-top: 20px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            font-weight: bold;
-        }
-        a.button:hover {
-            background-color: #0056b3;
-            transform: scale(1.05);
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 12px;
-            text-align: left;
-        }
-        .feature-list {
-            margin-top: 20px;
-        }
-        p {
-            text-align: left;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-        .warning {
-            color: #e74c3c;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>站点已关闭</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background: #101013; color: #e8e8ea;
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans SC", sans-serif;
+    line-height: 1.75;
+  }
+  main { max-width: 820px; margin: 0 auto; padding: 0 20px 96px; }
+  h1 { font-size: clamp(26px, 4vw, 40px); margin: 0 0 8px; letter-spacing: .5px; }
+  .lead { color: #9aa0a6; margin: 0 0 32px; }
+  h2 { font-size: clamp(19px, 2.4vw, 24px); margin: 40px 0 12px; padding-left: 12px;
+        border-left: 5px solid #b3001b; }
+  p, li { font-size: clamp(15px, 1.7vw, 17px); }
+  ul { padding-left: 1.2em; }
+  li { margin: .35em 0; }
+  .card { background: #191a1f; border: 1px solid #2a2c33; border-radius: 14px;
+           padding: 22px 24px; margin: 18px 0; }
+  .muted { color: #8b9098; font-size: 14px; }
+  a { color: #ff6b6b; }
+  code { background: #22242b; padding: .12em .4em; border-radius: 6px; font-size: .92em; }
+</style>
 </head>
 <body>
-<div class="logo-container"></div>
-<div class="container">
-    <div class="left-section">
-        <h1>欢迎下载 BetterSeeWo</h1>
-        <p>点击下方按钮开始下载：</p>
-        <h2>提示：分卷文件请删掉末尾的“.txt”后缀</h2>
-        <a href="https://github.com/wzmwayne/betterseewo/releases/download/1.2.1.3-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83/BetterSeewo_install_full.exe" class="button">立即下载</a>
-        <a href="https://leon.lanzoue.com/b00ya24yof" class="button">或-蓝奏云下载（更新减慢）(81ia)</a>
-        <h2>使用说明</h2>
-        <ul>
-            <li>双击下载的安装程序打开界面。</li>
-            <li>设置初始密码为 <strong>ysqd</strong>。</li>
-            <li>结束密码为 <strong>ysqd</strong>。</li>
-            <li><span class="warning">警告：</span> 默认密码已泄露，请自行在源代码修改。</li>
-            <li><span class="warning">如果您不确定某些功能的作用，请勿使用这些功能。</span></li>
-            <li><span class="warning">使用软件过程中造成的一切后果与作者无关。</span></li>
-        </ul>
-    </div>
-    <div class="right-section">
-        <h2>功能简介</h2>
-        <p>BetterSeeWo 是一款专为希沃智能大屏设计的强大管理工具，旨在简化您的日常操作并提高工作效率。以下是软件的主要功能介绍：</p>
-        <ul class="feature-list">
-            <li><strong>更方便地管理希沃智能大屏：</strong> 提供直观的操作界面，让您轻松管理和控制大屏设备的各种设置。</li>
-            <li><strong>提供重装系统和爆破冰点功能：</strong> 您可以快速恢复系统到出厂设置或解决特定问题，无需复杂的操作步骤。</li>
-            <li><strong>一键镜像劫持：</strong> 消灭流氓软件，保证运行流畅。</li>
-            <li><strong>一键脱离卡死状态：</strong> 当大屏设备出现无响应或其他故障时，您可以迅速解决问题，恢复正常运行。</li>
-            <li><strong>整分报时（每5分钟）：</strong> 定期提醒时间，帮助您更好地规划和安排会议或课程。</li>
-            <li><strong>时钟显示：</strong> 实时显示当前时间，确保所有活动都能按时进行。</li>
-            <li><strong>扩展插件：</strong> 根据需要安装所需插件，扩展无限可能</li>
-        </ul>
-        <p>通过以上功能，BetterSeeWo 帮助您高效、便捷地管理希沃智能大屏，提升整体工作流程的顺畅度。</p>
-    </div>
+<div id="kab" role="alert">
+  <a href="https://keepandroidopen.org" target="_blank" rel="noopener">
+    Keep Android Open — 安卓必须保持开放
+  </a>
+  <div class="kab-sub">签名、安装与分发自由正在被侵蚀，请关注并参与：keepandroidopen.org</div>
 </div>
+<style>
+  /* 不可关闭、大号、置顶横幅 */
+  #kab {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 2147483647;
+    background: #b3001b; color: #fff;
+    padding: 18px 16px 16px;
+    text-align: center;
+    box-shadow: 0 6px 24px rgba(0,0,0,.45);
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans SC", sans-serif;
+    border-bottom: 4px solid #ffd400;
+  }
+  #kab a {
+    color: #fff; text-decoration: none;
+    font-size: clamp(24px, 4.2vw, 46px); font-weight: 900;
+    letter-spacing: .5px; line-height: 1.15;
+  }
+  #kab a:hover { text-decoration: underline; }
+  #kab .kab-sub { margin-top: 8px; font-size: clamp(13px, 1.5vw, 18px); opacity: .95; }
+  @media (max-width: 640px) { #kab { padding: 14px 10px 12px; } }
+</style>
+
+<main style="padding-top: 200px;">
+
+<h1>因学业原因，项目暂停更新</h1>
+<p class="lead">本人因学业原因，暂时放缓各项目更新，学业告一段落后继续。</p>
+
+<div class="card">
+  <h2 style="margin-top:0">公告</h2>
+  <p>因学业原因，账号下的仓库目前设为<strong>归档（只读）</strong>，本站不再提供任何下载、导航或资源链接，历史页面内容已移除。</p>
+  <p>仓库内容按「放弃所有权利」（Unlicense / 公有领域）发布，可自由取用、修改与再分发；暂停期间暂不提供支持与更新。</p>
+</div>
+
+<h2>为什么关注 keepandroidopen.org</h2>
+<p>安卓生态正在从「开放安装」走向「受控分发」：侧载限制、开发者验证、平台签名垄断，会直接压缩个人开发者与普通用户的空间。这不是某一个应用的问题，而是整个平台的走向。</p>
+<p>请访问 <a href="https://keepandroidopen.org" target="_blank" rel="noopener">keepandroidopen.org</a> 了解进展与参与方式。</p>
+
+<h2>本站现状</h2>
+<ul>
+  <li>下载链接、导航分组、旧版页面：<strong>已全部移除</strong>；</li>
+  <li>代码与文档：保留在 GitHub 仓库中（已归档，只读）；</li>
+  <li>许可：放弃所有权利，公有领域；</li>
+  <li>暂停期间暂不处理功能请求、问题反馈与合并请求，恢复后照常。</li>
+</ul>
+<p class="muted">暂停期间页面不再更新。</p>
+
+</main>
 </body>
 </html>
